@@ -1,4 +1,4 @@
-let library = [
+const library = [
   {
     author: "Bill Gates",
     title: "The Road Ahead",
@@ -13,7 +13,7 @@ let library = [
     author: "Suzanne Collins",
     title: "Mockingjay: The Final Book of The Hunger Games",
     readingStatus: false,
-  }
+  },
 ];
 
 function numberOfBooksRead(library){
@@ -26,6 +26,8 @@ function numberOfBooksRead(library){
     }
   }
   return count;
-}
+};
 
-console.log(numberOfBooksRead());
+// Do not change the code below
+
+alert(numberOfBooksRead());

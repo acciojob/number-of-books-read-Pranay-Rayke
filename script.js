@@ -1,4 +1,4 @@
-const library = [
+let library = [
   {
     author: "Bill Gates",
     title: "The Road Ahead",
@@ -16,7 +16,7 @@ const library = [
   },
 ];
 
-const numberOfBooksRead = (library) => {
+function numberOfBooksRead(library){
   // write your code here
 	let count = 0;
   for (let i = 0; i < library.length; i++) {
@@ -27,4 +27,5 @@ const numberOfBooksRead = (library) => {
   }
   return count;
 }
+
 alert(numberOfBooksRead());

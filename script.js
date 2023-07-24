@@ -28,4 +28,4 @@ function numberOfBooksRead(library){
   return count;
 }
 
-alert(numberOfBooksRead());
+console.log(numberOfBooksRead());

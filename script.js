@@ -27,6 +27,4 @@ const numberOfBooksRead = (library) => {
   }
   return count;
 }
-};
-
 alert(numberOfBooksRead());
